@@ -1,0 +1,15 @@
+{
+    "listOfAllowedLocations":  {
+      "value": [
+        "eastus",
+        "eastus2",
+        "centralus",
+        "westus",
+        "northcentralus",
+        "southcentralus",
+        "northeurope",
+        "ukwest",
+        "uksouth"
+      ]
+    }
+}

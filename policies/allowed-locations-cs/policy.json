@@ -1,0 +1,19 @@
+{
+    "if": {
+        "allOf": [
+            {
+                "field": "type",
+                "equals": "Microsoft.Compute/VirtualMachines"
+            },
+            {
+                "field": "Microsoft.Compute/VirtualMachines/sku.name",
+                "notIn": [
+                    "Standard_D2_v3"
+                ]
+            }
+        ]
+    },
+    "then": {
+        "effect": "Deny"
+    }
+}

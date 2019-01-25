@@ -1,0 +1,1 @@
+# Clean up the environment by deleting policy assignments, definitions, and any resource groups created
